@@ -23,7 +23,7 @@
    Clone the repository to your local machine:
 
    ```bash
-   git clone [<repository_url>](https://github.com/mr-tomr/PrivEscChecker.git)
+   git clone git clone https://github.com/user/PrivEscChecker.git
    cd PrivEscChecker
   
 2. **Install Required Python Packages:**
