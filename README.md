@@ -26,13 +26,13 @@
    git clone <repository_url>
    cd PrivEscChecker
   
-### Install Required Python Packages:
+2. **Install Required Python Packages:**
 
-Install the necessary Python packages using pip:
+   Install the necessary Python packages using pip:
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+     ```bash
+    pip install -r requirements.txt
+     ```
 
 ### Usage
 
@@ -43,7 +43,7 @@ Install the necessary Python packages using pip:
 Run the following command in the Windows environment you want to analyze:
 
   ```bash
-  whoami /all > whoami_output.txt
+    whoami /all > whoami_output.txt
   ```
 This will save the output to a file named whoami_output.txt.
 
