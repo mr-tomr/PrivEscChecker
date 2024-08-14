@@ -17,13 +17,5 @@ sid_info = [
     {"SID": "S-1-5-21domain-518", "Type": "Domain", "Exploitability": "Medium", "Explanation": "Schema Admins Group: Modify the Active Directory schema.", "Example": "Schema Modification"},
     {"SID": "S-1-5-21domain-520", "Type": "Domain", "Exploitability": "Medium", "Explanation": "Group Policy Creator Owners Group: Create and modify group policies.", "Example": "GPO Exploitation"},
     {"SID": "S-1-5-32-550", "Type": "Local/Domain", "Exploitability": "Medium", "Explanation": "BUILTIN\\Print Operators: Manage printers and potentially execute code in the context of SYSTEM.", "Example": "Driver Exploitation (PrintNightmare)"},
-    {"SID": "S-1-5-11", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "Authenticated Users: Assigned to all authenticated users.", "Example": "Not directly exploitable."},
-    {"SID": "S-1-5-7", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "Anonymous Logon: Assigned to anonymous users.", "Example": "Not directly exploitable."},
-    {"SID": "S-1-5-32-545", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "BUILTIN\\Users: General user group with limited privileges.", "Example": "Not directly exploitable."},
-    {"SID": "S-1-5-32-546", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "BUILTIN\\Guests: Very limited access and privileges.", "Example": "Not directly exploitable."},
-    {"SID": "S-1-5-9", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "Enterprise Domain Controllers: SID for domain controllers.", "Example": "Not directly exploitable."},
-    {"SID": "S-1-5-12", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "Local Account and Member of Administrators Group: Hybrid AD environment.", "Example": "Not directly exploitable."},
-    {"SID": "S-1-5-6", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "SERVICE: Identifies service accounts.", "Example": "Not directly exploitable."},
-    {"SID": "S-1-2-0", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "LOCAL: Used for local machine accounts.", "Example": "Not directly exploitable."},
     {"SID": "S-1-5-32-549", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "BUILTIN\\Server Operators: Manage servers, including restarting and managing services.", "Example": "Service Exploitation"},
 ]
