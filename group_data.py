@@ -14,7 +14,6 @@ group_info = [
     {"Group": "NT AUTHORITY\\Authenticated Users", "Type": "Local/Domain", "Exploitability": "Medium", "Explanation": "Authenticated users with access to certain system resources.", "Example": "Privilege Escalation via Misconfigurations"},
     {"Group": "NT AUTHORITY\\Local Service", "Type": "Local", "Exploitability": "Medium", "Explanation": "Runs services with minimum privileges.", "Example": "Service Exploitation (JuicyPotato)"},
     {"Group": "NT AUTHORITY\\Network Service", "Type": "Local", "Exploitability": "Medium", "Explanation": "Runs services that access network resources.", "Example": "Service Exploitation (JuicyPotato)"},
-    {"Group": "BUILTIN\\Users", "Type": "Local/Domain", "Exploitability": "Low", "Explanation": "General user group with limited privileges.", "Example": "Not directly exploitable for privilege escalation."},
     {"Group": "BUILTIN\\Performance Monitor Users", "Type": "Local", "Exploitability": "Medium", "Explanation": "Monitor perf. counters, possible gathering sens data.", "Example": "Information Disclosure"},
     {"Group": "NT SERVICE\\ALL SERVICES", "Type": "Local", "Exploitability": "Medium", "Explanation": "Represents all services running under service accounts.", "Example": "Service Exploitation (JuicyPotato)"},
 ]
